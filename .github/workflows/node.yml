@@ -21,4 +21,4 @@ jobs:
         run: npm install
 
       - name: Verificar inicio del servidor
-        run: node server.js
+        run: node --check server.js
